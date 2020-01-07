@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="46dp">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:id="@+id/foto_menu"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="25dp"
+                android:scaleType="center"
+                android:src="@drawable/imagen" />
+
+            <TextView
+                android:id="@+id/texto_perfil_menu"
+                android:layout_marginTop="20dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="25dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center"
+                android:text="mis_datos" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/boton_mi_perfil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:text="@string/mi_perfil"/>
+
+        <Button
+            android:id="@+id/boton_mis_libros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:text="@string/mis_libros" />
+
+        <Button
+            android:id="@+id/boton_prestados"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:text="@string/prestados" />
+
+        <Button
+            android:id="@+id/boton_libros_deseados"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:text="@string/libros_deseados" />
+        <Button
+            android:id="@+id/boton_cambiar_contrasenia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:text="@string/cambiar_contrasenia" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
